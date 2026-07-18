@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "modid:ruby_gem"
+    }
+  },
+  "result": {
+    "item": "modid:ruby_chestplate",
+    "count": 1
+  }
+}
