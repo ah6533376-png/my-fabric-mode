@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "G G",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:glow_berries"
+    },
+    "G": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "glowberry_tart:glowberry_jam",
+    "count": 1
+  }
+}
