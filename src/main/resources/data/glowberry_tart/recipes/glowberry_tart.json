@@ -1,11 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" B ", "SWS", " F "],
+  "pattern": [
+    " B ",
+    "SWS",
+    " F "
+  ],
   "key": {
-    "B": { "item": "minecraft:glow_berries" },
-    "S": { "item": "minecraft:sugar" },
-    "W": { "item": "minecraft:wheat" },
-    "F": { "item": "minecraft:honey_bottle" }
+    "B": {
+      "item": "minecraft:glow_berries"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "F": {
+      "item": "minecraft:honey_bottle"
+    }
   },
-  "result": { "item": "glowberry_tart:glowberry_tart", "count": 2 }
+  "result": {
+    "item": "glowberry_tart:glowberry_tart",
+    "count": 2
+  }
 }
