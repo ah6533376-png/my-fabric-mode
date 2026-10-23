@@ -1,27 +1,33 @@
-# Glowberry Tart
+# Glowberry Grove
 
-**A tiny vanilla-plus food mod for Minecraft Java 1.20.1 (Fabric).**
+A small vanilla-plus content mod for **Minecraft Java 1.20.1 / Fabric / Java 17**.
 
-A sweet berry tart made from glow berries, sugar, wheat, and honey. Eat one for **6 hunger points** and **25 seconds of Night Vision**. Stack size: 16. The recipe makes two.
+## Added content
+- **Glowberry Tart**: restores 6 hunger and grants 25 seconds of Night Vision.
+- **Glowberry Jam**: restores 4 hunger and grants 12 seconds of Glowing, making you and nearby players able to see your outline through blocks.
+- **Glowberry Lantern**: a placeable light source with light level 15, crafted as a decorative alternative to the regular lantern.
 
-## Crafting
-Use a shaped crafting grid:
+## Recipes
+The tart recipe makes two:
 ```
 [   ] [Glow Berries] [   ]
 [Sugar] [  Wheat  ] [Sugar]
 [   ] [Honey Bottle] [   ]
 ```
 
-## Install
-1. Install Minecraft Java 1.20.1, Fabric Loader, and Fabric API.
-2. Download the JAR from the GitHub Actions artifact.
-3. Put the JAR in your `mods` folder.
+Jam:
+```
+[Glow Berries] [Sugar] [Glow Berries]
+[     Sugar   ] [Glass Bottle] [     Sugar]
+[      empty  ] [    empty    ] [      empty]
+```
 
-## Build
-Requires JDK 17. Run `gradle build` or use the included GitHub Actions workflow.
+Lantern: surround a torch with eight glow berries in a crafting table.
+
+## Build and install
+Use JDK 17 and Gradle 8.7, or run the GitHub Actions workflow. Install Fabric Loader and Fabric API for Minecraft 1.20.1, then place the built JAR in `.minecraft/mods`.
 
 ## Testing status
-CI compilation checks that the mod builds. A full in-game test of crafting, eating, and the Night Vision effect is still required before calling this release fully tested.
+The source and resource files are committed. Do not consider it release-tested until the GitHub Actions build succeeds and the items/recipes are checked in-game.
 
-## License
-MIT
+MIT license.
